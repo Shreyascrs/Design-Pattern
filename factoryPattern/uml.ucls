@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.bridgelabz.designPattern.factoryPattern.Computermain" 
+    project="Bridgelabzprograms" 
+    file="/Bridgelabzprograms/src/com/bridgelabz/designPattern/factoryPattern/Computermain.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="195" x="182" y="157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.bridgelabz.designPattern.factoryPattern.Computerfactory" 
+    project="Bridgelabzprograms" 
+    file="/Bridgelabzprograms/src/com/bridgelabz/designPattern/factoryPattern/Computerfactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="340" x="417" y="157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.bridgelabz.designPattern.factoryPattern.Server" project="Bridgelabzprograms" 
+    file="/Bridgelabzprograms/src/com/bridgelabz/designPattern/factoryPattern/Server.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="205" width="195" x="797" y="157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.bridgelabz.designPattern.factoryPattern.Pc" project="Bridgelabzprograms" 
+    file="/Bridgelabzprograms/src/com/bridgelabz/designPattern/factoryPattern/Pc.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="205" width="195" x="1032" y="157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.bridgelabz.designPattern.factoryPattern.Computer" 
+    project="Bridgelabzprograms" 
+    file="/Bridgelabzprograms/src/com/bridgelabz/designPattern/factoryPattern/Computer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="195" x="915" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="6" language="java" name="com.bridgelabz.designPattern.factoryPattern.Computerinstance" 
+    project="Bridgelabzprograms" 
+    file="/Bridgelabzprograms/src/com/bridgelabz/designPattern/factoryPattern/Computerinstance.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="195" x="1267" y="157"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <realization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
